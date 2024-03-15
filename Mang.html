@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mảng</title>
+</head>
+<body>
+<!--&lt;!&ndash;<SCRIPT>&ndash;&gt;-->
+<!--    // let array = ["a","b", "c"]-->
+<!--    // for (let i = 0; i < array.length; i++) {-->
+<!--       // if(number[i] % 2 === 0)  {-->
+<!--        // console.log(array[i]);-->
+<!--    }-->
+<!--// href = ""-->
+<!--// alt = "" >-->
+<!--// console.log-->
+<!--// // Hàm tương tác với mảng.-->
+<!--//    let array = [1,3,5]-->
+<!--// //         array.push(67);-->
+<!--//    // array.pop(); // xoá phần tử cuối mảng-->
+<!--//    //      console.log(array.join()); //Biến mảng thành chuỗi-->
+<!--//    //      console.log(array.concat(array2()); /Nối hai mảng với nhau tạo thanh một mảng mới.-->
+<!--//         array.splice(1, 2);  //Vị trí bắt đầu xoá, số lượgn phần tử muốn xoá.-->
+<!--//-->
+<!--&lt;!&ndash;//         )&ndash;&gt;-->
+<!--&lt;!&ndash;</SCRIPT>&ndash;&gt;-->
+
+<!--<script>-->
+<!--    let array = [1,7,5,9,2,6]-->
+<!--// &lt;!&ndash;    for (let i = 0; i <= 5 ; i++) {&ndash;&gt;-->
+<!--// &lt;!&ndash;        console.log(array[i])&ndash;&gt;-->
+<!--// &lt;!&ndash;    }&ndash;&gt;-->
+<!--//     for (let i = 0; i <=5 ; i++) {-->
+<!--//         if (array[i] % 2 === 0) {-->
+<!--//             console.log(array[i])-->
+<!--//         }-->
+<!--//     }-->
+<!--</script>-->
+
+<!--<script>-->
+<!--    let points = [40, 100, 1, 5, 25, 10]-->
+<!--    point.sort(function (a, b) {-->
+<!--        return a - b-->
+<!--    })-->
+<!--    document.write(points + "<br>")-->
+
+<!--    points.sort(function (a, b))-->
+<!--</script>-->
+
+<!--<h1> In ra tổng các phần tử chẵn trong mảng</h1>-->
+<!--<script>-->
+<!--    let array = [1, 7, 5, 9, 2, 6];-->
+<!--    let sum = 0-->
+<!--    for (let i = 0; i < array.length ; i++) {-->
+<!--        if (array[i] % 2 === 0) {-->
+<!--            sum += array[i]; // Cộng phần tử chẵn vào tổng-->
+<!--        }-->
+
+<!--        }-->
+
+
+<!--        console.log("Tổng các pần tử trong mảng là: " + sum)-->
+
+<!--</script>-->
+
+<!--<h1>  In ra tổng các phần tử >10 trong mảng </h1>-->
+<!--<script>-->
+<!--    let array = [1,7,5,9,12,14,2,6,2]-->
+<!--    let sum = 0-->
+<!--    for (let i = 0; i < array.length; i++) {-->
+<!--        if (array[i] < 10)-->
+<!--          sum += array[i]-->
+
+<!--    }-->
+<!--    console.log("Hiển thị tổng các phần tử > 10 trong mảng là:" + sum)-->
+<!--</script>-->
+
+<!--<h1> In ra tổng các phần tử chia 7 dư 2 trong mảng </h1>-->
+<!--<script>-->
+<!--    array = [1,7,5,9,2,6,16]-->
+<!--    division = 0-->
+<!--    for (let i = 0; i < array.length ; i++) {-->
+<!--        if (array[i] % 7 == 2) {-->
+<!--            division += array[i]-->
+<!--        }-->
+<!--    }-->
+<!--        console.log("In ra tổng các phần tử chia 7 dư 2 trong mảng" + division )-->
+
+<!--</script>-->
+<!--<h1>In ra max của các phần tử chẵn mảng</h1>-->
+<!--<script>-->
+<!--    let array = [2,4,6,7,5,9,2,6]          //array =2-->
+<!--    let solonnhat = -3-->
+<!--    for (let i = 0; i < array.length ; i++) {   //i = 0-->
+<!--        if (array[i] % 2 === 0 && array[i] > solonnhat) {-->
+
+<!--                solonnhat = array[i]-->
+<!--            }-->
+<!--    }-->
+<!--</script>-->
+
+
+
+<!--    console.log("In ra số Max" + solonnhat )-->
+
+<!--</script>-->
+
+
+
+<!--<h1>In ra lớn nhất của mảng </h1>-->
+<!--<script>-->
+<!--    let array = [1,7,5,9,2,6]-->
+<!--    let max = -Infinity-->
+<!--    for (let i = 0; i < array.length; i++) {-->
+<!--        if (max < array[i]) {-->
+<!--           max = array[i]-->
+<!--        }-->
+
+
+<!--    }-->
+<!--    console.log("In ra số lớn nhất của mảng" + max)-->
+<!--</script>-->
+
+<!--<h1>In ra số lượng các phần tử chia hết cho 5 trong mảng</h1>-->
+<!--<script>-->
+<!--    let array = [1,7,5,9,10,15, 2,6]-->
+<!--    let count = 0-->
+<!--    for (let i = 0; i < array.length ; i++) {-->
+<!--        if(array[i] % 5 == 0) {-->
+<!--            count++-->
+<!--        }-->
+<!--    }-->
+<!--    console.log("Số lượng phần tử chia hết cho năm là " + count )-->
+<!--</script>-->
+
+<!--<h1>In ra trung bình các phần tử chia hết cho 5 trong mảng</h1>-->
+<!--<script>-->
+<!--    let array = [1,7,5,9,10,15,20,25,2,6]-->
+<!--    let sum = 0-->
+<!--    let average = 0-->
+<!--    let count = 0-->
+<!--    for (let i = 0; i < array.length ; i++) {-->
+<!--        if (array[i] % 5 ==0 ) {-->
+<!--             count++-->
+<!--            sum += array[i]-->
+<!--        }-->
+<!--        average =  sum/count-->
+
+
+<!--    }-->
+<!--    console.log("Trung bình các phần tử chia hết cho 5 trong mảng là " + average)-->
+<!--</script>-->
+
+
+
+
+
+
+<h1>Tìm phần tử lớn thứ 2 trong mảng (nâng cao: 1 vòng lặp) </h1>
+
+<script>
+
+    let array = [1, 7, 5, 9, 2, 6];
+    let max = -Infinity
+    let secondmax = -Infinity;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (array[i] > max) {
+            secondmax = max;
+            max = array[i]; // Cập nhật giá trị lớn nhất mới
+        } else if (array[i] > secondmax && array[i] !== max) {
+            secondmax = array[i]; // Cập nhật giá trị lớn thứ hai mới
+        }
+    }
+
+    console.log("Phần tử lớn thứ hai trong mảng là:", secondLargest);
+
+
+
+    console.log("In ra số lớn thú hai của mảng" + max)
+</script>
+
+</body>
+
+
+
+</html>
